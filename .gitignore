@@ -1,0 +1,6 @@
+.DS_Store
+
+/vendor/
+Resources
+/public/vendor/hallo
+.idea

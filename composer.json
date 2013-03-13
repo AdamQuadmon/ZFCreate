@@ -1,0 +1,26 @@
+{
+    "name": "adam/create-bundle",
+    "type": "zendframework-bundle",
+    "description": "Zend Framework Bundle for createphp and create.js. The easiest way to make any site editable and have semantic annotations with RDFa.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luciano Amodio",
+            "homepage": "http://www.lucianoamodio.it/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+
+        "midgard/createphp": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Adam\\CreateBundle": "" }
+    },
+    "target-dir": "Adam/CreateBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
